@@ -1,0 +1,17 @@
+create table if not exists trade_port_refining_chart_tree(
+trade_port_refining_id Integer not null,
+global_schema_path_effective_date varchar(255) null,
+global_schema_path_code Integer null,
+global_schema_path_description varchar(255) null,
+graph_root_route1 varchar(255) null,
+graph_root_route1_desc varchar(255) null,
+graph_root_route2 varchar(255) null,
+graph_root_route2_desc varchar(255) null,
+graph_root_route3 varchar(255) null,
+graph_root_route3_desc varchar(255) null,
+graph_root_route4 varchar(255) null,
+graph_root_route4_desc varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint trade_port_refining_chart_tree_pk primary key(trade_port_refining_id));

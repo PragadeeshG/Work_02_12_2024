@@ -1,0 +1,16 @@
+create table if not exists trade_port_refining_mapper(
+data_portfolio_code Integer not null,
+trade_port_refining_id Integer null,
+skills_count Integer null,
+values1 varchar(255) null,
+attitudes Integer null,
+trade_port_refining_mapped_to_report char null,
+is_active char null,
+preferences varchar(255) null,
+trial_and_error varchar(255) null,
+creation_cr varchar(255) null,
+modified_cr varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint trade_port_refining_mapper_pk primary key(data_portfolio_code));
